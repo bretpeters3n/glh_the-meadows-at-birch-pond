@@ -19,3 +19,14 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+summary {
+  outline: none;
+  /* Hides marker on Chrome */
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  /* Hides marker on Safari */
+  /*display: none;*/
+}
