@@ -8,6 +8,8 @@ import { FaHome } from 'react-icons/fa'
 import { MdDriveEta } from 'react-icons/md'
 import { LuBike } from 'react-icons/lu'
 import { FaRegMap } from 'react-icons/fa6'
+import { CgMenuGridO } from 'react-icons/cg'
+
 import LightGallery from 'lightgallery/react'
 
 // import styles
@@ -63,7 +65,7 @@ export default function Home() {
             <h2 className="text-3xl font-bold py-5">
               The Meadows at Birch Pond
             </h2>
-            <div>
+            <div className="relative">
               <LightGallery
                 elementClassNames="grid grid-rows-4 grid-cols-2 sm:grid-rows-2 sm:grid-cols-4 gap-1 sm:gap-2"
                 // onInit={onInit}
@@ -166,6 +168,64 @@ export default function Home() {
                   />
                 </a>
                 <a href="/static/images/The Meadows at Birch Pond (3).jpg">
+                  <img
+                    className="hidden"
+                    src="/static/images/The Meadows at Birch Pond (3).jpg"
+                  />
+                </a>
+              </LightGallery>
+              <LightGallery
+                elementClassNames=""
+                // onInit={onInit}
+                speed={500}
+                plugins={[lgThumbnail, lgZoom]}
+              >
+                <a href="/static/images/MeadowsBuildingPNG.jpg">
+                  <img
+                    className="hidden"
+                    src="/static/images/MeadowsBuildingPNG.jpg"
+                  />
+                  <div className="absolute bottom-[1.5rem] right-[1rem] flex flex-row justify-center gap-2 bg-[#E51E50] hover:bg-[#D41142] text-white text-center font-semibold py-2 px-4 rounded shadow mt-3">
+                    <CgMenuGridO className="inline-block my-auto" />
+                    <p className="select-none">Show all photos</p>
+                  </div>
+                </a>
+                <a href="/static/images/The Meadows at Birch Pond.jpg">
+                  <img
+                    className="hidden"
+                    src="/static/images/The Meadows at Birch Pond.jpg"
+                  />
+                </a>
+                <a href="/static/images/Meadows Landscape D3.PNG">
+                  {' '}
+                  <img
+                    className="hidden"
+                    src="/static/images/Meadows Landscape D3.PNG"
+                  />
+                </a>
+                <a href="/static/images/The Meadows Birch Pond 2nd Floor.jpg">
+                  {' '}
+                  <img
+                    className="hidden"
+                    src="/static/images/The Meadows Birch Pond 2nd Floor.jpg"
+                  />
+                </a>
+                <a href="/static/images/The Meadows at Birch Pond Aerial View.jpg">
+                  {' '}
+                  <img
+                    className="hidden"
+                    src="/static/images/The Meadows at Birch Pond Aerial View.jpg"
+                  />
+                </a>
+                <a href="/static/images/The Meadows at Birch Pond (2).jpg">
+                  {' '}
+                  <img
+                    className="hidden"
+                    src="/static/images/The Meadows at Birch Pond (2).jpg"
+                  />
+                </a>
+                <a href="/static/images/The Meadows at Birch Pond (3).jpg">
+                  {' '}
                   <img
                     className="hidden"
                     src="/static/images/The Meadows at Birch Pond (3).jpg"
