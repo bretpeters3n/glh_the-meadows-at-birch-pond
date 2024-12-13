@@ -48,7 +48,7 @@ export default function Home() {
             alt="Picture of the author"
           />
           <div className="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-5xl sm:text-6xl md:text-7xl font-bold text-center drop-shadow-xl">
-            <h1>
+            <h1 style={{ textShadow: '0px 0px 10px black' }}>
               Ready. Set. <i>SOLD!</i>
             </h1>
             <a className="w-full" href="#main">
@@ -65,7 +65,7 @@ export default function Home() {
             </h2>
             <div>
               <LightGallery
-                elementClassNames="grid grid-rows-4 grid-cols-2 sm:grid-rows-2 sm:grid-cols-4 gap-1"
+                elementClassNames="grid grid-rows-4 grid-cols-2 sm:grid-rows-2 sm:grid-cols-4 gap-1 sm:gap-2"
                 // onInit={onInit}
                 speed={500}
                 plugins={[lgThumbnail, lgZoom]}
@@ -159,109 +159,25 @@ export default function Home() {
                     className="rounded-br-xl"
                   />
                 </a>
+                <a href="/static/images/The Meadows at Birch Pond (2).jpg">
+                  <img
+                    className="hidden"
+                    src="/static/images/The Meadows at Birch Pond (2).jpg"
+                  />
+                </a>
+                <a href="/static/images/The Meadows at Birch Pond (3).jpg">
+                  <img
+                    className="hidden"
+                    src="/static/images/The Meadows at Birch Pond (3).jpg"
+                  />
+                </a>
               </LightGallery>
-            </div>
-            <div className="flex flex-row flex-wrap bg-slate-100 rounded-xl p-0 md:p-0 bg-transparent bg-clip-border">
-              <div className="basis-full sm:basis-1/2">
-                <LightGallery
-                  // onInit={onInit}
-                  speed={500}
-                  plugins={[lgThumbnail, lgZoom]}
-                >
-                  <a href="/static/images/MeadowsBuildingPNG.jpg">
-                    <Image
-                      src="/static/images/MeadowsBuildingPNG.jpg"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{
-                        width: '100%',
-                        height: '100%',
-                        objectFit: 'cover',
-                      }} // optional
-                      alt="Picture of the author"
-                      className="rounded-tl-xl rounded-tr-xl rounded-bl-none sm:rounded-tl-xl sm:rounded-bl-xl sm:rounded-tr-none pb-1 pr-0 sm:pb-0 sm:pr-1"
-                    />
-                  </a>
-                </LightGallery>
-              </div>
-              <div className="basis-full sm:basis-1/2">
-                <div className="grid grid-cols-2 gap-1">
-                  <div>
-                    <a href="/static/images/The Meadows at Birch Pond.jpg">
-                      <Image
-                        src="/static/images/The Meadows at Birch Pond.jpg"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{
-                          width: '100%',
-                          height: '100%',
-                          objectFit: 'cover',
-                        }} // optional
-                        alt="Picture of the author"
-                      />
-                    </a>
-                  </div>
-                  <div>
-                    <a href="/static/images/Meadows Landscape D3.PNG">
-                      <Image
-                        src="/static/images/Meadows Landscape D3.PNG"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{
-                          width: '100%',
-                          height: '100%',
-                          objectFit: 'cover',
-                        }} // optional
-                        alt="Picture of the author"
-                        className="rounded-tr-none sm:rounded-tr-xl"
-                      />
-                    </a>
-                  </div>
-                  <div>
-                    <a href="/static/images/The Meadows Birch Pond 2nd Floor.jpg">
-                      <Image
-                        src="/static/images/The Meadows Birch Pond 2nd Floor.jpg"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{
-                          width: '100%',
-                          height: '100%',
-                          objectFit: 'cover',
-                        }} // optional
-                        alt="Picture of the author"
-                        className="rounded-bl-xl sm:rounded-bl-none"
-                      />
-                    </a>
-                  </div>
-                  <div>
-                    <a href="/static/images/The Meadows at Birch Pond Aerial View.jpg">
-                      <Image
-                        src="/static/images/The Meadows at Birch Pond Aerial View.jpg"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{
-                          width: '100%',
-                          height: '100%',
-                          objectFit: 'cover',
-                        }} // optional
-                        alt="Picture of the author"
-                        className="rounded-br-xl"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </div>
             </div>
             {/* </div> */}
           </figure>
           <figure className="mb-[100px] pt-5 container mx-auto">
-            <div className="flex flex-row flex-wrap-reverse box-content">
-              <div className="max-[767px]:basis-full min-[768px]:basis-2/3 box-border">
+            <div className="flex flex-col sm:grid sm:grid-rows-1 sm:grid-cols-3 gap-1">
+              <div className="mt-5 sm:mt-0 col-12 sm:row-span-1 sm:col-span-2">
                 <h3 className="text-2xl font-bold pb-0">
                   Townhouse in Eagan, MN
                 </h3>
@@ -375,7 +291,15 @@ export default function Home() {
                       unit and secure a place in this desirable development.
                     </li>
                     <li className="my-4">
-                      <i>GREATLAND HOMES LLC</i>
+                      <i>
+                        <a
+                          href="https://www.greatlandhomesllc.com/"
+                          target="_blank"
+                          className="underline text-white"
+                        >
+                          GREATLAND HOMES LLC
+                        </a>
+                      </i>
                     </li>
                   </ul>
 
@@ -384,8 +308,7 @@ export default function Home() {
                   </h4>
                 </div>
               </div>
-
-              <div className="max-[767px]:basis-full min-[768px]:basis-1/3 box-border outline outline-1 outline-white/[.15] rounded-xl p-5 h-full mb-5 md:mb-auto">
+              <div className="col-12 col-span-1 sm:row-span-1 sm:col-span-1 order-first sm:order-last outline outline-white/15 p-5 rounded-md h-fit">
                 <div className="flex flex-row justify-center items-center gap-3">
                   <p className="text-4xl font-semibold pt-0">$560,000</p>
                   <p className="text-md pt-0 text-gray-300 leading-[18px] leading-md-none">
@@ -402,20 +325,23 @@ export default function Home() {
                       </div>
                     </summary>
                     <div className="flex flex-row justify-center items-baseline gap-3">
-                      <a className="w-full" href="tel:415-939-1779">
+                      <a className="w-full" href="tel:111-111-1111">
                         <div className="flex flex-row justify-center gap-2 mx-auto bg-[#E51E50] hover:bg-[#D41142] text-white text-center font-semibold py-2 px-4 rounded shadow mt-3 w-full">
                           <FaPhone className="inline-block my-auto" />
                           <p className="select-none">Phone</p>
                         </div>
+                        <p className="text-xs text-center pt-2 text-gray-300 select-none">
+                          111-111-1111
+                        </p>
                       </a>
-                      <a
-                        className="w-full"
-                        href="mailto:bretpetersen@gmail.com"
-                      >
+                      <a className="w-full" href="mailto:email@gmail.com">
                         <div className="flex flex-row justify-center gap-2 mx-auto bg-[#E51E50] hover:bg-[#D41142] text-white text-center font-semibold py-2 px-4 rounded shadow mt-3 w-full">
                           <MdEmail className="inline-block my-auto" />
                           <p className="select-none">Email</p>
                         </div>
+                        <p className="text-xs text-center pt-2 text-gray-300 select-none">
+                          email@gmail.com
+                        </p>
                       </a>
                     </div>
                   </details>
@@ -425,11 +351,11 @@ export default function Home() {
                     See listing on
                     <br />
                     <a
-                      href="https://www.greatlandhomesllc.com/"
+                      href="https://portal.onehome.com/en-US/properties/map?token=eyJPU04iOiJOU1RBUiIsInR5cGUiOiIwIiwiY29udGFjdGlkIjo1MzY5OTEwLCJzZXRpZCI6IjExOTU2MTM1MyIsInNldGtleSI6IjQ1OCIsImVtYWlsIjoiRGljay5CcmF1bkBSZXN1bHRzLm5ldCIsInJlc291cmNlaWQiOjAsImFnZW50aWQiOjgwOTM1LCJWaWV3TW9kZSI6IjEifQ%3D%3D&SMS=0&searchId=82008b28-f817-3199-bf7c-ecdef24970a9"
                       target="_blank"
                       className="underline"
                     >
-                      GreatLandHomesLLC.com
+                      OneHome.com
                     </a>
                   </p>
                 </div>
@@ -438,35 +364,16 @@ export default function Home() {
           </figure>
         </main>
         <footer className="">
-          <div className="grid grid-rows-4 grid-cols-2 sm:grid-rows-2 sm:grid-cols-4 gap-1">
-            <div className="row-span-2 col-span-2 bg-white rounded-tl-xl rounded-tr-xl rounded-bl-none sm:rounded-tl-xl sm:rounded-bl-xl sm:rounded-tr-none pb-1 pr-0 sm:pb-0 sm:pr-1">
-              01
-            </div>
-            <div className="row-span-1 col-span-1 bg-white">02</div>
-            <div className="row-span-1 col-span-1 bg-white rounded-tr-none sm:rounded-tr-xl">
-              03
-            </div>
-            <div className="row-span-1 col-span-1 bg-white rounded-bl-xl sm:rounded-bl-none">
-              04
-            </div>
-            <div className="row-span-1 col-span-1 bg-white rounded-br-xl">
-              05
-            </div>
-          </div>
-          {/* <LightGallery
-            // onInit={onInit}
-            speed={500}
-            plugins={[lgThumbnail, lgZoom]}
-          > */}
-          <a href="/static/images/Meadows Landscape D3.PNG">
-            <img alt="img1" src="/static/images/Meadows Landscape D3.PNG" />
-          </a>
-          <a href="img/img2.jpg">
-            <img alt="img2" src="img/thumb2.jpg" />
-          </a>
-          ...
-          {/* </LightGallery> */}
-          <p>footer</p>
+          <p className="text-xs text-center font-normal p-4 border-t border-white/[.15]">
+            ©2024 Dick Braun. All rights reserved. In partnership with{' '}
+            <a
+              href="https://www.greatlandhomesllc.com/"
+              target="_blank"
+              className="underline"
+            >
+              Greatland Homes LLC.
+            </a>
+          </p>
         </footer>
       </div>
     </>
