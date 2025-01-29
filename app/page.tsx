@@ -264,9 +264,17 @@ export default function Home() {
                 <p className="text-md pt-0 text-gray-300">
                   4 bedrooms • 3 bathrooms • 2,561 square feet
                 </p>
-                <div className="bg-[#E51E50] hover:bg-[#D41142] text-center text-white font-semibold py-2 px-4 rounded shadow mt-3 w-48">
+                <div className="flex flex-col sm:flex-row gap-0 sm:gap-4">
                   <a
+                    className="bg-[#E51E50] hover:bg-[#D41142] text-center text-white font-semibold py-2 px-4 rounded shadow mt-3 w-64"
                     href="/static/pdfs/The Meadows at Birch Pond Floor Plans.pdf"
+                    target="_blank"
+                  >
+                    <p className="select-none">Floor Plans & Options</p>
+                  </a>
+                  <a
+                    className="bg-[#E51E50] hover:bg-[#D41142] text-center text-white font-semibold py-2 px-4 rounded shadow mt-3 w-48"
+                    href="/static/pdfs/Meadows at Birch Diamond Features Jan 27 2025.pdf"
                     target="_blank"
                   >
                     <p className="select-none">Standard Features</p>
@@ -312,7 +320,7 @@ export default function Home() {
                     />
                     <div className="flex flex-col justify-start gap-none">
                       <p className="text-lg font-bold py-0 my-0 text-white">
-                        Greatlandhomes LLC
+                        Greatland Homes LLC
                       </p>
                       <p className="text-md py-0 my-0 text-gray-300">Builder</p>
                     </div>
@@ -388,7 +396,7 @@ export default function Home() {
                       to an active lifestyle and community engagement.
                     </li>
                     <li className="my-4">
-                      The two-car garage & two-story layout of 2,560 square feet
+                      The two-car garage & two-story layout of 2,561 square feet
                       features a main level with a spacious kitchen, dining and
                       living room. The upper level will have the option of three
                       or four bedrooms, 2 full baths, a laundry room & a
@@ -406,12 +414,13 @@ export default function Home() {
                     </li>
                     <li className="my-4">
                       <i>
+                        Visit our website at{' '}
                         <a
                           href="https://www.greatlandhomesllc.com/"
                           target="_blank"
                           className="underline text-white"
                         >
-                          GREATLAND HOMES LLC
+                          www.greatlandhomesllc.com
                         </a>
                       </i>
                     </li>
@@ -485,7 +494,7 @@ export default function Home() {
               Greatland Homes LLC.
             </a>
           </p>
-          <div className="flex flex-row justify-center items-center gap-5 pb-4">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-5 pb-4">
             {/* <Image
               src="/static/images/glh-full-logo.png"
               width={0}
