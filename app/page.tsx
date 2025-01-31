@@ -272,13 +272,13 @@ export default function Home() {
                   >
                     <p className="select-none">Floor Plans & Options</p>
                   </a>
-                  <a
+                  {/* <a
                     className="bg-[#E51E50] hover:bg-[#D41142] text-center text-white font-semibold py-2 px-4 rounded shadow mt-3 w-48"
                     href="/static/pdfs/Meadows at Birch Diamond Features Jan 27 2025.pdf"
                     target="_blank"
                   >
                     <p className="select-none">Standard Features</p>
-                  </a>
+                  </a> */}
                 </div>
                 {/* <div className="bg-[#E51E50] hover:bg-[#D41142] text-center text-white font-semibold py-2 px-4 rounded shadow mt-3 w-48">
                   <CgMenuGridO className="inline-block my-auto" />
@@ -287,18 +287,19 @@ export default function Home() {
                 <div className="flex flex-col mr-5 max-w-[90%]">
                   <div className="flex flex-row justify-start items-center gap-3 mt-6 mb-2">
                     <Image
-                      src="/static/images/dickBraun-profile-sm.png"
+                      // src="/static/images/dickBraun-profile-sm.png"
+                      src="/static/images/remaxLogo-profile-sm.png"
                       width={0}
                       height={0}
                       sizes="100vh"
                       style={{
-                        width: '60px',
+                        width: '170px',
                         height: '60px',
                         objectFit: 'cover',
                       }} // optional
                       alt="Picture of the author"
                     />
-                    <div className="flex flex-col justify-start gap-none">
+                    <div className="flex flex-col justify-start gap-none border-l border-solid border-[#fff] pl-3">
                       <p className="text-lg font-bold py-0 my-0 text-white">
                         Dick Braun
                       </p>
@@ -461,7 +462,7 @@ export default function Home() {
                       </a>
                       <a
                         className="w-full"
-                        href="mailto:dick.braun@results.net"
+                        href="mailto:dick.braun@results.net?subject=The%20Meadows%20at%20Birch%20Pond"
                       >
                         <div className="flex flex-row justify-center gap-2 mx-auto bg-[#E51E50] hover:bg-[#D41142] text-white text-center font-semibold py-2 px-4 rounded shadow mt-3 w-full">
                           <MdEmail className="inline-block my-auto" />
