@@ -153,11 +153,11 @@ export default function Home() {
 
                 {/* map - whats close */}
                 <a
-                  href="/static/images/map-whatsClose.png"
+                  href="/static/images/map-whatsClose.jpg"
                   className="row-span-1 col-span-1"
                 >
                   <Image
-                    src="/static/images/map-whatsClose.png"
+                    src="/static/images/map-whatsClose.jpg"
                     width={0}
                     height={0}
                     sizes="100vw"
@@ -439,7 +439,16 @@ export default function Home() {
                   </p>
                   <div>
                     <p className="text-4xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold pt-0">
-                      $545/565,000
+                      $545,000{' '}
+                      <span className="text-[14px] font-normal pt-0 text-gray-300 leading-[18px] leading-md-none">
+                        (middle units)
+                      </span>
+                    </p>
+                    <p className="text-4xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold pt-0">
+                      $565,000{' '}
+                      <span className="text-[14px] font-normal pt-0 text-gray-300 leading-[18px] leading-md-none">
+                        (end units)
+                      </span>
                     </p>
                   </div>
                 </div>
