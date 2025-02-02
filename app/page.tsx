@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <>
       <div className="bg-[#1b5a7d]">
-        <Image
+        {/* <Image
           className="absolute top-[-3rem] left-[-4rem] scale-50 sm:scale-75 sm:top-[-1rem] sm:left-[-1rem] md:scale-100 md:top-[1rem] md:left-[1rem]"
           src="/static/images/logo-theMeadowsAtBirchwood.png"
           width={0}
@@ -39,26 +39,34 @@ export default function Home() {
           sizes="100%"
           style={{ width: '330px', height: '278px', objectFit: 'cover' }} // optional
           alt="Picture of the author"
-        />
-        <nav className="h-[90vh] bg-white">
+        /> */}
+        <nav className="bg-white">
           <Image
-            src="/static/images/Meadows-Building-PNG-noLogo.jpg"
+            // src="/static/images/Meadows-Building-PNG-noLogo.jpg"
+            src="/static/images/mainImgSignProof.jpg"
             width={0}
             height={0}
             sizes="100vh"
-            style={{ width: '100%', height: '100%', objectFit: 'cover' }} // optional
+            style={{ width: '100%', objectFit: 'contain' }} // optional
             alt="Picture of the author"
           />
-          <div className="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-5xl sm:text-6xl md:text-7xl font-bold text-center drop-shadow-xl">
-            <h1 style={{ textShadow: '0px 0px 10px black' }}>
-              {/* Ready. Set. <i>SOLD!</i> */}
-            </h1>
+          <div className="py-5">
             <a className="w-full" href="#main">
-              <div className="mx-auto bg-[#E51E50] hover:bg-[#D41142] text-xl text-white text-center font-semibold py-2 px-4 rounded shadow mt-5 w-[300px] outline-solid outline-2 outline-[#fff]">
-                <p className="select-none">Get Started</p>
+              <div className="mx-auto bg-[#E51E50] hover:bg-[#D41142] text-xl text-white text-center font-semibold py-2 px-4 rounded shadow mt-0 w-[300px] outline-solid outline-2 outline-[#fff]">
+                <p className="select-none">Info</p>
               </div>
             </a>
           </div>
+          {/* <div className="absolute bottom-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-5xl sm:text-6xl md:text-7xl font-bold text-center drop-shadow-xl">
+            <h1 style={{ textShadow: '0px 0px 10px black' }}>
+              Ready. Set. <i>SOLD!</i>
+            </h1>
+            <a className="w-full" href="#main">
+              <div className="mx-auto bg-[#E51E50] hover:bg-[#D41142] text-xl text-white text-center font-semibold py-2 px-4 rounded shadow mt-5 w-[300px] outline-solid outline-2 outline-[#fff]">
+                <p className="select-none">Info</p>
+              </div>
+            </a>
+          </div> */}
         </nav>
         <main id="main" className="mt-10 mx-5">
           <figure className="container mx-auto">
