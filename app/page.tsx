@@ -43,12 +43,12 @@ export default function Home() {
         <nav className="bg-white">
           <Image
             // src="/static/images/Meadows-Building-PNG-noLogo.jpg"
-            src="/static/images/mainImgSignProof.jpg"
+            src="/static/images/mainImgSignProof.png"
             width={0}
             height={0}
             sizes="100vh"
             style={{ width: '100%', objectFit: 'contain' }} // optional
-            alt="Picture of the author"
+            alt="Main dwevelopment photo"
           />
           <div className="py-5">
             <a className="w-full" href="#main">
@@ -95,7 +95,7 @@ export default function Home() {
                       height: '100%',
                       objectFit: 'cover',
                     }} // optional
-                    alt="Picture of the author"
+                    alt=""
                     className="pb-0 pr-0 sm:pb-0 sm:pr-0"
                   />
                 </a>
@@ -115,7 +115,7 @@ export default function Home() {
                       height: '100%',
                       objectFit: 'cover',
                     }} // optional
-                    alt="Picture of the author"
+                    alt=""
                   />
                 </a>
 
@@ -134,7 +134,7 @@ export default function Home() {
                       height: '100%',
                       objectFit: 'cover',
                     }} // optional
-                    alt="Picture of the author"
+                    alt=""
                     className=""
                   />
                 </a>
@@ -154,7 +154,7 @@ export default function Home() {
                       height: '100%',
                       objectFit: 'cover',
                     }} // optional
-                    alt="Picture of the author"
+                    alt=""
                     className=""
                   />
                 </a>
@@ -174,7 +174,7 @@ export default function Home() {
                       height: '100%',
                       objectFit: 'cover',
                     }} // optional
-                    alt="Picture of the author"
+                    alt=""
                     className=""
                   />
                 </a>
@@ -305,7 +305,7 @@ export default function Home() {
                         height: '60px',
                         objectFit: 'cover',
                       }} // optional
-                      alt="Picture of the author"
+                      alt="Remax logo"
                     />
                     <div className="flex flex-col justify-start gap-none border-l border-solid border-[#fff] pl-3">
                       <p className="text-lg font-bold py-0 my-0 text-white">
@@ -325,7 +325,7 @@ export default function Home() {
                         height: '60px',
                         objectFit: 'cover',
                       }} // optional
-                      alt="Picture of the author"
+                      alt="GLH logo"
                     />
                     <div className="flex flex-col justify-start gap-none">
                       <p className="text-lg font-bold py-0 my-0 text-white">
@@ -388,21 +388,22 @@ export default function Home() {
                   <ul className="text-md pt-0 text-gray-300 list-none ml-0">
                     <li className="mt-1">
                       Welcome to Eagan's newest Premier Townhome Community
-                      featuring 16 Units consiting of 4 Buildings with 2 end & 2
-                      middle Units in each Building. Location exclusivity is a
-                      priority for most new buyers, our location has excellent
+                      featuring 16 Units consisting of 4 Buildings with 2 end &
+                      2 middle Units in each Building. Location exclusivity is a
+                      priority for most new buyers, the location has excellent
                       walkability and proximity to key amenities for shopping,
-                      eating & entertainment including Central Park Commons, the
+                      dining & entertainment including Central Park Commons, the
                       Promenade Shopping Mall & Eagan Town Centre. The Eagan
-                      Outlet Mall, Mall of America & the Airport are all located
-                      within a few minutes of the site. 35 E, Highway 13 & Cedar
-                      Ave allow easy access to downtown Minneapolis & St. Paul.
-                      Situated in the heart of walking and biking trails within
-                      the City of Eagan and the Minnesota River Valley along
-                      with two City Parks Quarry & Sky Hill that offer a large
-                      area for family gatherings, playgrounds for kids & access
-                      to pickleball & tennis courts, emphasizing the commitment
-                      to an active lifestyle and community engagement.
+                      Outlet Mall, Mall of America & the MSP Airport are all
+                      located within a few minutes of the site. 35 E, Highway 13
+                      & Cedar Ave allow easy access to downtown Minneapolis &
+                      St. Paul. The site is situated in the heart of walking and
+                      biking trails within the City of Eagan and the Minnesota
+                      River Valley. There are two City Parks, Quarry & Sky Hill
+                      that offer a large area for family gatherings, playgrounds
+                      for kids & access to pickleball & tennis courts,
+                      emphasizing the commitment to an active lifestyle and
+                      community engagement.
                     </li>
                     <li className="my-4">
                       The two-car garage & two-story layout of 2,561 square feet
@@ -570,7 +571,7 @@ export default function Home() {
                   height: '53px',
                   // objectFit: 'cover',
                 }} // optional
-                alt="Picture of the author"
+                alt="Remax logo"
               />
             </a>
             <a href="https://www.greatlandhomesllc.com/" target="_blank">
@@ -584,7 +585,7 @@ export default function Home() {
                   height: '53px',
                   // objectFit: 'cover',
                 }} // optional
-                alt="Picture of the author"
+                alt="GLH logo"
               />
             </a>
             <a
