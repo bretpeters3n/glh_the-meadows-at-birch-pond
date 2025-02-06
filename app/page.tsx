@@ -70,7 +70,7 @@ export default function Home() {
         </nav>
         <main id="main" className="mt-10 mx-5">
           <figure className="container mx-auto">
-            <h2 className="text-3xl font-bold py-5">
+            <h2 className="text-3xl font-bold py-5 text-white">
               The Meadows at Birch Pond
             </h2>
             <div className="relative rounded-md">
@@ -266,7 +266,7 @@ export default function Home() {
           <figure className="mb-[100px] pt-5 container mx-auto">
             <div className="flex flex-col sm:grid sm:grid-rows-1 sm:grid-cols-3 gap-1">
               <div className="mt-5 sm:mt-0 col-12 sm:row-span-1 sm:col-span-2">
-                <h3 className="text-2xl font-bold pb-0">
+                <h3 className="text-2xl font-bold pb-0 text-white">
                   Townhouse in Eagan, MN
                 </h3>
                 <p className="text-md pt-0 text-gray-300">
@@ -334,14 +334,14 @@ export default function Home() {
                       <p className="text-md py-0 my-0 text-gray-300">Builder</p>
                     </div>
                   </div>
-                  <h4 className="text-lg font-semibold pb-0 pt-4 border-t border-white/[.15]">
+                  <h4 className="text-lg font-semibold pb-0 pt-4 border-t border-white/[.15] text-white">
                     Availability
                   </h4>
                   <p className="text-md pt-0 text-gray-300">
                     16 units available
                   </p>
 
-                  <h4 className="text-lg font-semibold pb-0 pt-4 mt-4 border-t border-white/[.15]">
+                  <h4 className="text-lg font-semibold pb-0 pt-4 mt-4 border-t border-white/[.15] text-white">
                     Location
                   </h4>
                   <ul className="text-md pt-2 text-gray-300 list-none ml-3">
@@ -382,7 +382,7 @@ export default function Home() {
                     </li>
                   </ul>
 
-                  <h4 className="text-lg font-semibold pb-0 pt-4 mt-4 border-t border-white/[.15]">
+                  <h4 className="text-lg font-semibold pb-0 pt-4 mt-4 border-t border-white/[.15] text-white">
                     Description
                   </h4>
                   <ul className="text-md pt-0 text-gray-300 list-none ml-0">
@@ -436,27 +436,27 @@ export default function Home() {
                     </li>
                   </ul>
 
-                  <h4 className="text-lg font-semibold pb-0 pt-4 mt-4 border-t border-white/[.15]">
+                  <h4 className="text-lg font-semibold pb-0 pt-4 mt-4 border-t border-white/[.15] text-white">
                     MLS #6544321
                   </h4>
                 </div>
               </div>
               <div className="col-12 col-span-1 sm:row-span-1 sm:col-span-1 order-first sm:order-last outline outline-white/15 p-5 rounded-md h-fit">
                 <div className="flex flex-row justify-center items-center gap-3">
-                  <p className="text-md pt-0 text-gray-300 leading-[18px] leading-md-none">
+                  <p className="text-sm sm:text-xs md:text-xs lg:text-lg pt-0 text-gray-300 leading-[18px] leading-md-none">
                     From
                   </p>
                   <div>
-                    <p className="text-4xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold pt-0">
+                    <p className="text-3xl sm:text-xl/4 md:text-2xl/2 lg:text-3xl xl:text-4xl font-semibold pt-0 text-white">
                       $545,000{' '}
-                      <span className="text-[14px] font-normal pt-0 text-gray-300 leading-[18px] leading-md-none">
-                        (middle units)
+                      <span className="text-sm sm:text-xs md:text-xs lg:text-lg font-normal pt-0 text-gray-300">
+                        (middle&nbsp;units)
                       </span>
                     </p>
-                    <p className="text-4xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold pt-0">
+                    <p className="text-3xl sm:text-xl/4 md:text-2xl/2 lg:text-3xl xl:text-4xl font-semibold pt-3 text-white">
                       $565,000{' '}
-                      <span className="text-[14px] font-normal pt-0 text-gray-300 leading-[18px] leading-md-none">
-                        (end units)
+                      <span className="text-sm sm:text-xs md:text-xs lg:text-lg font-normal pt-0 text-gray-300">
+                        (end&nbsp;units)
                       </span>
                     </p>
                   </div>
