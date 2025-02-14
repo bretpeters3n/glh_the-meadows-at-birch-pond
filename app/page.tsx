@@ -43,7 +43,7 @@ export default function Home() {
         <nav className="bg-white">
           <Image
             // src="/static/images/Meadows-Building-PNG-noLogo.jpg"
-            src="/static/images/mainImgSignProof.png"
+            src="/static/images/mainImgSignProof-02132025.png"
             width={0}
             height={0}
             sizes="100vh"
