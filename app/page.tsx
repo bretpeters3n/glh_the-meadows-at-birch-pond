@@ -141,11 +141,11 @@ export default function Home() {
 
                 {/* arial illustration */}
                 <a
-                  href="/static/images/Meadows Landscape D3.PNG"
+                  href="/static/images/Meadows Landscape D3 v2.PNG"
                   className="row-span-1 col-span-1"
                 >
                   <Image
-                    src="/static/images/Meadows Landscape D3.PNG"
+                    src="/static/images/Meadows Landscape D3 v2.PNG"
                     width={0}
                     height={0}
                     sizes="100vw"
@@ -228,11 +228,11 @@ export default function Home() {
                 </a>
 
                 {/* arial illustration */}
-                <a href="/static/images/Meadows Landscape D3.PNG">
+                <a href="/static/images/Meadows Landscape D3 v2.PNG">
                   {' '}
                   <img
                     className="hidden"
-                    src="/static/images/Meadows Landscape D3.PNG"
+                    src="/static/images/Meadows Landscape D3 v2.PNG"
                   />
                 </a>
 
