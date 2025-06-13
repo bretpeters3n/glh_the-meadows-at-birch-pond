@@ -141,11 +141,11 @@ export default function Home() {
 
                 {/* arial illustration */}
                 <a
-                  href="/static/images/Meadows-Landscape-D3-v2.PNG"
+                  href="/static/images/Meadows-Landscape-D3-v3.png"
                   className="row-span-1 col-span-1"
                 >
                   <Image
-                    src="/static/images/Meadows-Landscape-D3-v2.PNG"
+                    src="/static/images/Meadows-Landscape-D3-v3.png"
                     width={0}
                     height={0}
                     sizes="100vw"
@@ -228,11 +228,11 @@ export default function Home() {
                 </a>
 
                 {/* arial illustration */}
-                <a href="/static/images/Meadows-Landscape-D3-v2.PNG">
+                <a href="/static/images/Meadows-Landscape-D3-v3.png">
                   {' '}
                   <img
                     className="hidden"
-                    src="/static/images/Meadows-Landscape-D3-v2.PNG"
+                    src="/static/images/Meadows-Landscape-D3-v3.png"
                   />
                 </a>
 
@@ -454,7 +454,7 @@ export default function Home() {
                       </span>
                     </p>
                     <p className="text-3xl sm:text-xl/4 md:text-2xl/2 lg:text-3xl xl:text-4xl font-semibold pt-3 text-white">
-                      $565,000{' '}
+                      $575,000{' '}
                       <span className="text-sm sm:text-xs md:text-xs lg:text-lg font-normal pt-0 text-gray-300">
                         (end&nbsp;units)
                       </span>
